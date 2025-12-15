@@ -154,4 +154,40 @@ h6 {
     outline: none;
     border-radius: 5px;
     font-size: 1rem;
+    cursor:pointer;
+}
+.cta-btn:hover{
+    background: var(--secondary-color);
+    color: var(--accent-color);
+    transition: all .8s linear .4s;
+}
+.cta-btn:visited{
+    background: var(--secondary-color);
+}
+/*Quotes Wrapper*/
+.quotes-wrapper{
+    width: 100%;
+    height: 160px;
+    padding:2rem 4rem ;
+    background: var(--primary-color);
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+.quote{
+   
+    padding:2rem 4rem;
+}
+.quote p{
+    font-size: 1.3rem;
+    text-wrap: wrap;
+    text-align: left;
+    margin: .3rem auto ;
+    color: var(--accent-color);
+}
+.quote span{
+    color: var(--accent-color);
+    margin:.3rem;
+    font-size: 1rem;
 }
