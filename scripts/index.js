@@ -1,1 +1,3 @@
-alert("Javascript Connected!!")
+function onClick(){
+    alert("Hello, world!");
+}

@@ -1,17 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ConsultingCo</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
 </head>
+
 <body>
-    <h1>Hello Ian</h1>
-    <h2>Welcome to your site</h2>
-    
+    <!--HEADER-->
+    <header class="header">
+        <h1>We are a leading consultant firm!</h1>
+        <!--social media icons-->
+        <div class="social-icons wrapper">
+            <i class="ri-facebook-line"></i>
+            <i class="ri-twitter-x-line"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-threads-line"></i>
+            <i class="ri-linkedin-line"></i>
+
+        </div>
+    </header>
+
+    <!--NAVIGATION BAR-->
+    <nav class="nav" id="top-nav">
+        <!--Logo-->
+        <div class="logo">
+            <a href="index.html">Consulting Co</a>
+        </div>
+        <!--Navigation Links-->
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Services</a></li>
+            <li><a href="services.html">Portfolio</a></li>
+            <li><a href="contact.html">Blog</a></li>
+            
+        </ul>
+
+    </nav>
+    <!--Hero section-->
+    <section id="hero-section" class="section-wrapper">
+        <div class="hero-wrapper ">
+            <p>At ConsultingCo, we provide expert solutions to help your business thrive in today's competitive market.
+            </p>
+            <h2>Your Success, Our Commitment</h2>
+            <a href="contact.html" class="cta-button">About Us</a>
+        </div>
+        <!--quotes wrapper-->
+        <div class="quotes-wrapper ">
+            <div class="quote">
+                <p>"ConsultingCo transformed our business strategy and boosted our growth!"</p>
+                <span>- Happy Client</span>
+            </div>
+            <div class="quote">
+                <p>"Their expertise and dedication are unmatched in the consulting industry."</p>
+                <span>- Satisfied Customer</span>
+            </div>
+        </div>
+    </section>
+    <!--Our Solutions Section-->
+    <section id="solutions-section" class="section-wrapper">
+        <h2>Our Solutions</h2>
+        <div class="solutions-wrapper wrapper">
+            <div class="solution-card">
+                <h3>Business Strategy</h3>
+                <p>We help you develop effective strategies to achieve your business goals.</p>
+            </div>
+            <div class="solution-card">
+                <h3>Market Analysis</h3>
+                <p>Our experts provide in-depth market analysis to identify opportunities and threats.</p>
+            </div>
+            <div class="solution-card">
+                <h3>Operational Improvement</h3>
+                <p>We optimize your operations to enhance efficiency and reduce costs.</p>
+            </div>
+
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about-section" class="section-wrapper">
+        <div class="about-us">
+            <h2>About ConsultingCo</h2>
+            <p>ConsultingCo has been a trusted partner for businesses worldwide, delivering innovative solutions and
+                unparalleled expertise. Our team of seasoned consultants is dedicated to helping you navigate complex
+                challenges and achieve sustainable growth.</p>
+            <a href="about.html" class="cta-button">Learn More</a>
+        </div>
+        <!--Quote Form-->
+        <div class="quote-form">
+            <form action="" method="get">
+
+                <input type="text" name="name" placeholder="Name*" required>
+                <input type="email" name="email" placeholder="Email*" required>
+                <input type="tel" name="phone" id="phone" placeholder="Phone">
+
+                <select name="service" id="service-select" required>
+                    <option value="" disabled selected>Select Service*</option>
+                    <option value="business-strategy">Business Strategy</option>
+                    <option value="market-analysis">Market Analysis</option>
+                    <option value="operational-improvement">Operational Improvement</option>
+                </select>
+
+                <textarea name="details" rows="4" placeholder="Project Details" required></textarea>
+                <button type="submit">Get A Quote</button>
+            </form>
+        </div>
+    </section>
+    <!--Our Cases Section-->
+    <section id="cases-section" class="section-wrapper">
+        <h2>Our Cases</h2>
+        <p>A tale of fateful trip that started from this tropic port aboard this tiny ship today stillers</p>
+        <div class="cases-wrapper">
+            <div class="case-card">
+                <h3>Case Study 1</h3>
+                <p>Discover how we helped a client increase their market share by 25% through strategic planning.</p>
+            </div>
+            <div class="case-card">
+                <h3>Case Study 2</h3>
+                <p>Learn about our successful operational overhaul that led to a 30% cost reduction for a major firm.
+                </p>
+            </div>
+            <div class="case-card">
+                <h3>Case Study 3</h3>
+                <p>See how our market analysis services enabled a startup to secure funding and expand rapidly.</p>
+            </div>
+            <button type="button">View All</button>
+        </div>
+        <!--FAQ section-->
+        <section id="faq" class="section-wrapper">
+            <h2>FAQ'S</h2>
+            <p>A tale of a fatefuk trip that started from this topic port aboard this trylu tiny ship today stillers</p>
+            <div class="faq-wrapper">
+                <!--Video-->
+                <div class="faq-video">
+                    <video src="">
+                        Your browser does not support the video tag.
+                    </video>
+                    <!--FAQ Questions List-->
+                    <div class="faq-question">
+                        <ul class="faq-list">
+                            <li>What Industries do you specilaize in?</li>
+                            <li>What Industries do you specilaize in?</li>
+                            <li>What Industries do you specilaize in?</li>
+                            <li>What Industries do you specilaize in?</li>
+                            <li>What Industries do you specilaize in?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Why Choose Us Section-->
+        <section id="choose-us" class="section-wrapper">
+            <h2>Why Choose Us</h2>
+            <div class="choose-us-wrapper wrapper">
+                <div class="choose-us-card">
+                    <h3>Expert Team</h3>
+                    <p>Our consultants are industry experts with years of experience.</p>
+                </div>
+                <div class="choose-us-card">
+                    <h3>Customized Solutions</h3>
+                    <p>We tailor our services to meet your unique business needs.</p>
+                </div>
+                <div class="choose-us-card">
+                    <h3>Proven Results</h3>
+                    <p>We have a track record of delivering measurable outcomes for our clients.</p>
+                </div>
+            </div>
+        </section>
+        <!--Banner-->
+        <div class="banner" id="banner">
+            <h2>Ready to Elevate Your Business?</h2>
+            <p>Contact ConsultingCo today and take the first step towards success!</p>
+            <a href="contact.html" class="cta-button">Contact Us</a>
+        </div>
+        <!--Latest News Section-->
+        <section id="latest-section" class="section-wrapper">
+            <h2>Latest News</h2>
+            <div class="latest-news-wrapper wrapper">
+                <div class="news-card">
+                    <h3>ConsultingCo Expands to New Markets</h3>
+                    <p>We are excited to announce our expansion into new international markets to better serve our
+                        clients.</p>
+                </div>
+                <div class="news-card">
+                    <h3>New Service Offerings</h3>
+                    <p>Discover our latest service offerings designed to help businesses navigate the evolving market
+                        landscape.</p>
+                </div>
+                <div class="news-card">
+                    <h3>Industry Insights Report Released</h3>
+                    <p>Our annual Industry Insights Report is now available, providing valuable analysis and trends for
+                        businesses.</p>
+                </div>
+            </div>
+        </section>
+        <!--FOOTER-->
+        <footer class="footer">
+            <p>&copy; 2024 ConsultingCo. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </footer>
 
 
-<script src="./scripts/index.js"></script>
+
+
+
+        <script src="./scripts/index.js"></script>
 </body>
+
 </html>
